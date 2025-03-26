@@ -36,7 +36,8 @@ The microservice is designed using **Node.js** and **Express.js**, with structur
 
 2. **Install dependencies**
    ```bash
-   npm install
+   npm install express
+   npm install Winston
    ```
 
 3. **Run the microservice**
