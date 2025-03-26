@@ -66,7 +66,7 @@ Each endpoint expects two query parameters: `n1` and `n2`.
 
 - Missing or invalid parameters return a 500 status with an error message.
 - Division by zero is handled with a custom error message.
-- All errors are logged in `logs/error.log`.
+- All errors are logged in `error.log`.
 
 ---
 
@@ -74,8 +74,8 @@ Each endpoint expects two query parameters: `n1` and `n2`.
 
 The application uses [Winston](https://github.com/winstonjs/winston) for logging:
 
-- **Info and error logs:** saved in `logs/combined.log`
-- **Only error logs:** saved in `logs/error.log`
+- **Info and error logs:** saved in `combined.log`
+- **Only error logs:** saved in `error.log`
 - Logs are printed to the console during development
 
 
