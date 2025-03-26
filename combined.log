@@ -1,0 +1,3 @@
+{"level":"info","message":"Parameters 4 and 2 received for division","service":"calculator-service"}
+{"level":"info","message":"Parameters 4 and 0 received for division","service":"calculator-service"}
+{"level":"error","message":"Cannot divide by zero","service":"calculator-service"}
